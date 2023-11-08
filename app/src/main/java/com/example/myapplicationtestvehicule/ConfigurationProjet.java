@@ -8,6 +8,7 @@ public class ConfigurationProjet {
 
     public ConfigurationProjet(){
         this.IPVoiture="10.3.141.1";
+        //this.IPVoiture="192.168.1.174";
         this.portVoiture="8000";
         this.connexionSecurisee=false;
         this.vitesses= this.configureVitesse();
